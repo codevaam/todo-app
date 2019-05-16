@@ -1,5 +1,6 @@
 var express = require('express');
 var todoController = require('./controllers/todoController');
+const PORT = process.env.PORT || 5000
 
 var app = express();
 
@@ -13,4 +14,4 @@ app.use(express.static('./assets'))
 todoController(app);
 
 //listen to port
-app.set('port', (process.env.PORT || 5000));
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))

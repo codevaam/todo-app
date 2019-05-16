@@ -1,0 +1,7 @@
+{
+    "name": "todo application nodejs",
+    "description": "nothing",
+    "repository": "https://github.com/devamtrivedi/todo-app.git",
+    "keywords": ["node", "express", "static"],
+    "image": "heroku/nodejs",
+}

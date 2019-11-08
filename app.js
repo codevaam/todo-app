@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 
 //static files
 app.use(express.static('./assets'))
-
+app.use(express.static('./static'))
 //fire controllers
 todoController(app);
 
